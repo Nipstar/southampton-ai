@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aiautomationsouthampton.co.uk/sitemap.xml
