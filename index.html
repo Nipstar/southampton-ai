@@ -159,6 +159,46 @@
           "@type": "Answer",
           "text": "Yes! While we're proudly based in Southampton, Hampshire, we work with businesses across the South of England and beyond. AI automation works anywhere — location is no barrier."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "What does AI automation in Southampton look like?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI automation in Southampton typically means an AI voice agent on the phone, an AI chatbot on the website, and workflow automation joining them to your CRM and calendar. We build all three for Southampton businesses from £97/month — live in 7-10 working days, integrated with the tools you already use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you build AI voice agents for Southampton businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — AI voice agents are our most common Southampton deployment. The agent answers in your business name 24/7, books appointments in your calendar, captures leads, escalates urgent calls to you, and emails you a written summary of every call. From £97/month."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you build AI chatbots for Southampton website enquiries?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. AI chatbots for Southampton businesses handle FAQs, qualify enquiries, book appointments, and integrate with your CRM. We build them on the same agent stack as our voice agents, so the conversation handoff between phone and chat stays consistent. From £57/month."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there an AI automation agency near me in Southampton?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — Antek Automation serves Southampton businesses from our Hampshire base (Andover, 40 minutes from Southampton). Most calls answered within 1 hour Mon-Fri 9-6, in-person visits across Southampton typically same-week."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you work with Southampton estate agents and trades businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both — and they're our two most common Southampton client types. Estate agents use the AI for property enquiry triage and viewing booking. Trades businesses use it for out-of-hours emergency-call capture and dispatch. Different conversation flows, same underlying agent stack."
+        }
       }
     ]
   }
@@ -1952,6 +1992,58 @@
     }
     .footer__profiles a:hover { color: var(--accent-secondary); }
     .footer__profiles-divider { margin: 0 4px; opacity: 0.3; color: var(--text-muted); }
+    /* ── SOUTHAMPTON-SPECIFIC SECTION ───────────────────── */
+    .soton {
+      padding: 96px 0;
+      background: var(--bg-primary);
+      position: relative;
+    }
+    .soton__head {
+      max-width: 820px;
+      margin: 0 auto 56px;
+      text-align: center;
+    }
+    .soton__label {
+      display: inline-block;
+      font-size: 0.78rem;
+      color: var(--accent-secondary);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+    }
+    .soton__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .soton__card {
+      background: rgba(26, 31, 46, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+      transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+    }
+    .soton__card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(59, 130, 246, 0.3);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+    }
+    .soton__card h3 {
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+    .soton__card p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+    @media (max-width: 768px) {
+      .soton__grid { grid-template-columns: 1fr; }
+      .soton { padding: 64px 0; }
+    }
   </style>
   <script type="application/ld+json">
   {
@@ -2656,6 +2748,36 @@
       </div>
     </section>
 
+    <!-- ═══ AI AUTOMATION SOUTHAMPTON ═══ -->
+    <section class="soton" id="ai-automation-southampton">
+      <div class="container">
+        <div class="soton__head reveal">
+          <span class="soton__label">AI Automation Southampton</span>
+          <h2>AI automation for Southampton businesses — voice agents, chatbots + workflows</h2>
+          <p class="section-subtitle">Southampton-based AI automation built around how Southampton businesses actually work. AI voice agents Southampton, AI chatbots Southampton, AI for Southampton trades, estate agents in Bedford Place, professional services on Above Bar, hospitality in Ocean Village. Local pace. Local context. Same Antek engineering as our enterprise clients.</p>
+        </div>
+        <div class="soton__grid">
+          <article class="soton__card reveal">
+            <h3>AI voice agents Southampton</h3>
+            <p>An AI voice agent for your Southampton business: answers calls in your business name within 2 rings, qualifies the enquiry, books the appointment, captures the lead, and emails you a summary of every call. 24/7. Never misses, never has an off day. From £97/month. Live in 7-10 working days.</p>
+          </article>
+          <article class="soton__card reveal">
+            <h3>AI chatbots Southampton</h3>
+            <p>A chatbot for your Southampton site that doesn't just answer FAQs — it qualifies enquiries, books appointments, integrates with your CRM, and hands warm leads to your team. Built on the same agent stack we use for voice. From £57/month.</p>
+          </article>
+          <article class="soton__card reveal">
+            <h3>AI for Southampton estate agents</h3>
+            <p>Property enquiry triage (sales vs lettings, area, budget, viewing-window). Viewing booking direct into the negotiator's diary. Vendor and applicant follow-up. Out-of-hours capture for the enquiries that decide who wins the instruction next morning. Common pattern for Southampton estate agents from Portswood to Hedge End.</p>
+          </article>
+          <article class="soton__card reveal">
+            <h3>AI for Southampton trades + service businesses</h3>
+            <p>Emergency plumbers, electricians, gas engineers, locksmiths across SO14-SO50. The AI takes the 2am call, qualifies the urgency, dispatches if it's a real emergency, books a slot if not. Most Southampton trades businesses we work with see a 30-50% lift in jobs booked from out-of-hours enquiries.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
     <!-- ═══ FAQ ═══ -->
     <section class="faq" id="faq">
       <div class="container">
@@ -2815,7 +2937,43 @@
             </div>
           </div>
         </div>
-      </div>
+      
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              What does AI automation in Southampton look like?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">AI automation in Southampton typically means an AI voice agent on the phone, an AI chatbot on the website, and workflow automation joining them to your CRM and calendar. We build all three for Southampton businesses from £97/month — live in 7-10 working days, integrated with the tools you already use.</div></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              Do you build AI voice agents for Southampton businesses?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">Yes — AI voice agents are our most common Southampton deployment. The agent answers in your business name 24/7, books appointments in your calendar, captures leads, escalates urgent calls to you, and emails you a written summary of every call. From £97/month.</div></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              Can you build AI chatbots for Southampton website enquiries?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">Yes. AI chatbots for Southampton businesses handle FAQs, qualify enquiries, book appointments, and integrate with your CRM. We build them on the same agent stack as our voice agents, so the conversation handoff between phone and chat stays consistent. From £57/month.</div></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              Is there an AI automation agency near me in Southampton?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">Yes — Antek Automation serves Southampton businesses from our Hampshire base (Andover, 40 minutes from Southampton). Most calls answered within 1 hour Mon-Fri 9-6, in-person visits across Southampton typically same-week.</div></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              Do you work with Southampton estate agents and trades businesses?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">Both — and they're our two most common Southampton client types. Estate agents use the AI for property enquiry triage and viewing booking. Trades businesses use it for out-of-hours emergency-call capture and dispatch. Different conversation flows, same underlying agent stack.</div></div>
+          </div>
+        </div>
       </div>
     </section>
 
